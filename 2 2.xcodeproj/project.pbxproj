@@ -7,23 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE0878F32CB719B8005FAA3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0878F22CB719B8005FAA3B /* AppDelegate.swift */; };
-		CE0878F52CB719B8005FAA3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0878F42CB719B8005FAA3B /* SceneDelegate.swift */; };
-		CE0878F72CB719B8005FAA3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0878F62CB719B8005FAA3B /* ViewController.swift */; };
 		CE0878FA2CB719B8005FAA3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0878F82CB719B8005FAA3B /* Main.storyboard */; };
-		CE0878FC2CB719BA005FAA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0878FB2CB719BA005FAA3B /* Assets.xcassets */; };
 		CE0878FF2CB719BA005FAA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0878FD2CB719BA005FAA3B /* LaunchScreen.storyboard */; };
+		CE0879082CBC4751005FAA3B /* maneger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0879072CBC4751005FAA3B /* maneger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE0878EF2CB719B8005FAA3B /* 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE0878F22CB719B8005FAA3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE0878F42CB719B8005FAA3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE0878F62CB719B8005FAA3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE0878EF2CB719B8005FAA3B /* 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = 2.app; path = "/Users/user/Documents/Olexandra 1/build/Debug-iphoneos/2.app"; sourceTree = "<absolute>"; };
 		CE0878F92CB719B8005FAA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE0878FB2CB719BA005FAA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0878FE2CB719BA005FAA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CE0879002CB719BA005FAA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0879072CBC4751005FAA3B /* maneger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maneger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,28 +34,15 @@
 			isa = PBXGroup;
 			children = (
 				CE0878F12CB719B8005FAA3B /* 2 */,
-				CE0878F02CB719B8005FAA3B /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		CE0878F02CB719B8005FAA3B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE0878EF2CB719B8005FAA3B /* 2.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CE0878F12CB719B8005FAA3B /* 2 */ = {
 			isa = PBXGroup;
 			children = (
-				CE0878F22CB719B8005FAA3B /* AppDelegate.swift */,
-				CE0878F42CB719B8005FAA3B /* SceneDelegate.swift */,
-				CE0878F62CB719B8005FAA3B /* ViewController.swift */,
+				CE0879072CBC4751005FAA3B /* maneger.swift */,
 				CE0878F82CB719B8005FAA3B /* Main.storyboard */,
-				CE0878FB2CB719BA005FAA3B /* Assets.xcassets */,
 				CE0878FD2CB719BA005FAA3B /* LaunchScreen.storyboard */,
-				CE0879002CB719BA005FAA3B /* Info.plist */,
 			);
 			path = 2;
 			sourceTree = "<group>";
@@ -99,10 +79,11 @@
 				TargetAttributes = {
 					CE0878EE2CB719B8005FAA3B = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
-			buildConfigurationList = CE0878EA2CB719B8005FAA3B /* Build configuration list for PBXProject "2" */;
+			buildConfigurationList = CE0878EA2CB719B8005FAA3B /* Build configuration list for PBXProject "2 2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +92,7 @@
 				Base,
 			);
 			mainGroup = CE0878E62CB719B8005FAA3B;
-			productRefGroup = CE0878F02CB719B8005FAA3B /* Products */;
+			productRefGroup = CE0878E62CB719B8005FAA3B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -126,7 +107,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0878FF2CB719BA005FAA3B /* LaunchScreen.storyboard in Resources */,
-				CE0878FC2CB719BA005FAA3B /* Assets.xcassets in Resources */,
 				CE0878FA2CB719B8005FAA3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0878F72CB719B8005FAA3B /* ViewController.swift in Sources */,
-				CE0878F32CB719B8005FAA3B /* AppDelegate.swift in Sources */,
-				CE0878F52CB719B8005FAA3B /* SceneDelegate.swift in Sources */,
+				CE0879082CBC4751005FAA3B /* maneger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +263,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -302,6 +281,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Aleksandra-loh.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -329,6 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Aleksandra-loh.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "2-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -337,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE0878EA2CB719B8005FAA3B /* Build configuration list for PBXProject "2" */ = {
+		CE0878EA2CB719B8005FAA3B /* Build configuration list for PBXProject "2 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE0879012CB719BA005FAA3B /* Debug */,
