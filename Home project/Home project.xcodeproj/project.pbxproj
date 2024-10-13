@@ -13,6 +13,7 @@
 		CE08791D2CBC519C005FAA3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE08791B2CBC519C005FAA3B /* Main.storyboard */; };
 		CE08791F2CBC51A1005FAA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE08791E2CBC51A1005FAA3B /* Assets.xcassets */; };
 		CE0879222CBC51A1005FAA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0879202CBC51A1005FAA3B /* LaunchScreen.storyboard */; };
+		CE08792B2CBC52B2005FAA3B /* Test .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08792A2CBC52B2005FAA3B /* Test .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE08791E2CBC51A1005FAA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0879212CBC51A1005FAA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE0879232CBC51A1005FAA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE08792A2CBC52B2005FAA3B /* Test .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,8 @@
 		CE0879142CBC519C005FAA3B /* Home project */ = {
 			isa = PBXGroup;
 			children = (
+				CE08792C2CBC52C9005FAA3B /* Main */,
+				CE0879292CBC5265005FAA3B /* Lessons */,
 				CE0879152CBC519C005FAA3B /* AppDelegate.swift */,
 				CE0879172CBC519C005FAA3B /* SceneDelegate.swift */,
 				CE0879192CBC519C005FAA3B /* ViewController.swift */,
@@ -65,6 +69,21 @@
 				CE0879232CBC51A1005FAA3B /* Info.plist */,
 			);
 			path = "Home project";
+			sourceTree = "<group>";
+		};
+		CE0879292CBC5265005FAA3B /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				CE08792A2CBC52B2005FAA3B /* Test .swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		CE08792C2CBC52C9005FAA3B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +159,7 @@
 			files = (
 				CE08791A2CBC519C005FAA3B /* ViewController.swift in Sources */,
 				CE0879162CBC519C005FAA3B /* AppDelegate.swift in Sources */,
+				CE08792B2CBC52B2005FAA3B /* Test .swift in Sources */,
 				CE0879182CBC519C005FAA3B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
